@@ -6,17 +6,17 @@ document.addEventListener('DOMContentLoaded', function () {
             single: {
                 price: 75, // 25% off main price
                 flavors: {
-                    Chocolate: { id: 'single_choco', image: '../choco.png', thumb: '../choco.png' },
-                    Vanilla: { id: 'single_vanilla', image: '../vannila.png', thumb: '../vannila.png' },
-                    Orange: { id: 'single_orange', image: '../orange.png', thumb: '../orange.png' }
+                    Chocolate: { id: 'single_choco', image: 'images/choco.png', thumb: 'images/choco.png' },
+                    Vanilla: { id: 'single_vanilla', image: 'images/vannila.png', thumb: 'images/vannila.png' },
+                    Orange: { id: 'single_orange', image: 'images/orange.png', thumb: 'images/orange.png' }
                 }
             },
             double: {
                 price: 150, // 2 x 75
                 flavors: {
-                   Chocolate: { id: 'double_choco', image: '../choco.png', thumb: '../choco.png' },
-                   Vanilla: { id: 'double_vanilla', image: '../vannila.png', thumb: '../vannila.png' },
-                   Orange: { id: 'double_orange', image: '../orange.png', thumb: '../orange.png' }
+                   Chocolate: { id: 'double_choco', image: 'images/choco.png', thumb: 'images/choco.png' },
+                   Vanilla: { id: 'double_vanilla', image: 'images/vannila.png', thumb: 'images/vannila.png' },
+                   Orange: { id: 'double_orange', image: 'images/orange.png', thumb: 'images/orange.png' }
                 }
             }
         },
